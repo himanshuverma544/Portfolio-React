@@ -11,7 +11,7 @@
     "react-scripts": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://himanshuverma544.github.io/portfolio-react",
+  "homepage": "https://himanshuverma544.github.io/Portfolio-React",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
