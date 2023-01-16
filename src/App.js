@@ -6,6 +6,7 @@ import Navigation from "./Navigation";
 import Masthead from "./Masthead";
 import PortfolioSection from "./PortfolioSection";
 import PortfolioModals from "./PortfolioModals";
+import AboutSection from "./AboutSection";
 
 const App = () => (
   <>
@@ -20,6 +21,11 @@ const App = () => (
       heading = "Portfolio"
     />
     <PortfolioModals/>
+    <AboutSection
+      heading = "About"
+      theTextContent = {{left : "aboutSecLeftContent", right : "aboutSecRightContent"}}
+      link = {{url : "#", title : "Download"}}
+    />
   </>
 );
 

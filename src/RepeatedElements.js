@@ -28,3 +28,8 @@ export const PortfolioItem = ({dataBsTargetNumValue, img}) => (
   </div>
 );
 
+/* Inside About Section */
+export const TextContent = ({classNameText, theTextContent}) => (
+  <div className={classNameText}><p className="lead">{theTextContent}</p></div>
+);
+
