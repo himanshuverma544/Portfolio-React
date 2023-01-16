@@ -5,7 +5,7 @@ import getTextContent from "./TextContent";
 
 import {Divider} from "./RepeatedElements";
 
-const PortfolioModal = ({numValue, heading, img, theTextContent}) => (
+const PortfolioModal = ({numValue, heading, img, theTextContent, btnText}) => (
   <div className="portfolio-modal modal fade" id={`portfolioModal${numValue}`} tabIndex="-1" aria-labelledby={`portfolioModal${numValue}`} aria-hidden="true">
     <div className="modal-dialog modal-xl">
       <div className="modal-content">
@@ -26,7 +26,7 @@ const PortfolioModal = ({numValue, heading, img, theTextContent}) => (
                   <p className="mb-4">{getTextContent(theTextContent)}</p>
                   <button className="btn btn-primary" data-bs-dismiss="modal">
                       <i className="fas fa-xmark fa-fw"></i>
-                      Close Window
+                      {btnText}
                   </button>
               </div>
             </div>
