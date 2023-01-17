@@ -6,7 +6,7 @@ import {Divider} from "./RepeatedElements";
 
 const Masthead = ({heading, subheading}) => (
 
-  <header className="masthead bg-primary text-white text-center">
+  <header className="masthead bg-primary text-white text-center" id="page-top">
       <div className="container d-flex align-items-center flex-column">
           {/* <!-- Masthead Avatar Image--> */}
           <Image classNameText="masthead-avatar mb-5" name="avataaars.svg" altText="Avatar image of the person"/>
