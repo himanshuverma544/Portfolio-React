@@ -14,8 +14,8 @@ const App = () => (
       heading = "My Portfolio"
     />
     <Masthead
-      heading = "Himanshu Verma" 
-      subheading = {["Software Developer"].join(' - ')}
+      heading = "Johny" 
+      subheading = {["Adventurous"].join(' - ')}
     />
     <PortfolioSection
       heading = "Portfolio"
