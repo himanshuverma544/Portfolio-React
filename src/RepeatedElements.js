@@ -8,8 +8,8 @@ export const NavLi = ({link}) => (
 );
 
 /* Inside Masthead */
-export const Divider = () => (
-  <div className="divider-custom divider-light">
+export const Divider = ({isBackgroundLight = false}) => (
+  <div className={`divider-custom${isBackgroundLight ? " divider-light" : ""}`}>
     <div className="divider-custom-line"></div>
     <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
     <div className="divider-custom-line"></div>

@@ -13,7 +13,7 @@ const Masthead = ({heading, subheading}) => (
           {/* <!-- Masthead Heading--> */}
           <h1 className="masthead-heading text-uppercase mb-0">{heading}</h1>
           {/* <!-- Icon Divider--> */}
-          <Divider/>
+          <Divider isBackgroundLight={true}/>
           {/* <!-- Masthead Subheading--> */}
           <p className="masthead-subheading font-weight-light mb-0">{subheading}</p>
       </div>

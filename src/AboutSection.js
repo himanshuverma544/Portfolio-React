@@ -11,7 +11,7 @@ const AboutSection = ({heading, theTextContent, link}) => (
       {/* <!-- About Section Heading--> */}
       <h2 className="page-section-heading text-center text-uppercase text-white">{heading}</h2>
       {/* <!-- Icon Divider--> */}
-      <Divider/>
+      <Divider isBackgroundLight = {true}/>
       {/* <!-- About Section Content--> */}
       <div className="row">
         <TextContent classNameText = "col-lg-4 ms-auto" theTextContent = {getTextContent(theTextContent.left)}/>
