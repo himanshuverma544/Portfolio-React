@@ -6,8 +6,13 @@ import PortfolioSection from "./PortfolioSection";
 import PortfolioModals from "./PortfolioModals";
 import AboutSection from "./AboutSection";
 import ContactSection from "./ContactSection";
+import Footer from "./Footer";
+
+
 
 import "./Assets";
+
+
 
 const App = () => (
   <>
@@ -58,6 +63,38 @@ const App = () => (
         }
       }}
     />
+    <Footer
+      leftContent = {{
+        locHeading : "Location",
+        locAddress : "2215 John Daniel Drive Clark, MO 65243"
+      }}
+      centerContent = {{
+        heading : "Around the Web",
+        social : {
+          facebook : {
+            link : "#",
+            icon : "facebook-f"
+          },
+          twitter : {
+            link : "#",
+            icon : "twitter",
+          },
+          linkedin : {
+            link : "#",
+            icon : "linkedin-in",
+          },
+          dribbble : {
+            link : "#",
+            icon : "dribbble"
+          }
+        }
+      }}
+      rightContent = {{
+        heading : "About Adventurous",
+        theTextContent : "footRightConAbout"
+      }}
+    />
+
   </>
 );
 
