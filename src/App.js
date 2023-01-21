@@ -7,11 +7,11 @@ import PortfolioModals from "./PortfolioModals";
 import AboutSection from "./AboutSection";
 import ContactSection from "./ContactSection";
 import Footer from "./Footer";
+import CopyrightSection from "./CopyrightSection";
 
-
+import {getCurrentYear} from "./functions";
 
 import "./Assets";
-
 
 
 const App = () => (
@@ -94,7 +94,7 @@ const App = () => (
         theTextContent : "footRightConAbout"
       }}
     />
-
+    <CopyrightSection textContent = {`Copyright © ${getCurrentYear()} by My Portfolio. All Rights Reserved.`}/>
   </>
 );
 
