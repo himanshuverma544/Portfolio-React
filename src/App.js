@@ -20,7 +20,7 @@ const App = () => (
       heading = "My Portfolio"
     />
     <Masthead
-      heading = "Johny" 
+      heading = "Nick" 
       subheading = {["Adventurous"].join(' - ')}
     />
     <PortfolioSection
