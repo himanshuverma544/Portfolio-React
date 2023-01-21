@@ -33,3 +33,8 @@ export const TextContent = ({classNameText, theTextContent}) => (
   <div className={classNameText}><p className="lead">{theTextContent}</p></div>
 );
 
+/* Inside Footer */
+export const Social = ({link, icon}) => (
+  <a className="btn btn-outline-light btn-social mx-1" href={link}><i className={`fab fa-fw fa-${icon}`}></i></a>
+);
+
