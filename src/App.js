@@ -64,7 +64,7 @@ const App = () => (
     <Footer
       leftContent = {{
         locHeading : "Location",
-        locAddress : "2215 John Daniel Drive Clark, MO 65243"
+        locAddress : "India"
       }}
       centerContent = {{
         heading : "Around the Web",
