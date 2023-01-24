@@ -24,7 +24,7 @@ const textContent = {
 
   /* Footer */
 
-  footRightConAbout : "An adventure is an exciting experience or undertaking that is typically bold, sometimes risky."
+  footRightConAbout : "The person who loves to do adventures and is jaunty, bubbly and playful."
 
 };
 

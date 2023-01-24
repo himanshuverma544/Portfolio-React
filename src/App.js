@@ -11,8 +11,6 @@ import CopyrightSection from "./CopyrightSection";
 
 import {getCurrentYear} from "./functions";
 
-import "./Assets";
-
 
 const App = () => (
   <>
@@ -20,8 +18,8 @@ const App = () => (
       heading = "My Portfolio"
     />
     <Masthead
-      heading = "Nick" 
-      subheading = {["Adventurous"].join(' - ')}
+      heading = "Himanshu Verma" 
+      subheading = {["Adventurous", "Joyful", "Playful"].join(' - ')}
     />
     <PortfolioSection
       heading = "Portfolio"
@@ -90,7 +88,7 @@ const App = () => (
         }
       }}
       rightContent = {{
-        heading : "About Adventurous",
+        heading : "About",
         theTextContent : "footRightConAbout"
       }}
     />
