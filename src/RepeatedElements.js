@@ -2,12 +2,8 @@ import React from "react";
 
 import Image from "./Image";
 
-/* Inside Navigation */
-export const NavLi = ({link}) => (
-  <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded" href={link.url}>{link.title}</a></li> 
-);
 
-/* Inside Masthead */
+/* Inside Masthead, Portfolio Section, About Section and Contact Section */
 export const Divider = ({isBackgroundLight = false}) => (
   <div className={`divider-custom${isBackgroundLight ? " divider-light" : ""}`}>
     <div className="divider-custom-line"></div>
