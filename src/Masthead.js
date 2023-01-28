@@ -1,7 +1,6 @@
 import React from "react";
 
 import Image from "./Image";
-
 import {Divider} from "./RepeatedElements";
 
 const Masthead = ({heading, subheading}) => (

@@ -1,8 +1,6 @@
 import React from "react";
 
 import Image from "./Image";
-import getTextContent from "./TextContent";
-
 import {Divider} from "./RepeatedElements";
 
 const PortfolioModal = ({numValue, heading, img, theTextContent, btnText}) => (
@@ -23,7 +21,7 @@ const PortfolioModal = ({numValue, heading, img, theTextContent, btnText}) => (
                   {/* <!-- Portfolio Modal - Image--> */}
                   <Image classNameText="img-fluid rounded mb-5" name={img.name} alt={img.alt}/>
                   {/* <!-- Portfolio Modal - Text--> */}
-                  <p className="mb-4">{getTextContent(theTextContent)}</p>
+                  <p className="mb-4">{theTextContent}</p>
                   <button className="btn btn-primary" data-bs-dismiss="modal">
                       <i className="fas fa-xmark fa-fw"></i>
                       {btnText}

@@ -3,9 +3,7 @@ import React from "react";
 import {Divider} from "./RepeatedElements";
 import {TextContent} from "./RepeatedElements";
 
-import getTextContent from "./TextContent";
-
-const AboutSection = ({heading, theTextContent, link}) => (
+const AboutSection = ({heading, textContentData, link}) => (
   <section className="page-section bg-primary text-white mb-0" id="about">
     <div className="container">
       {/* <!-- About Section Heading--> */}
@@ -14,8 +12,9 @@ const AboutSection = ({heading, theTextContent, link}) => (
       <Divider isBackgroundLight = {true}/>
       {/* <!-- About Section Content--> */}
       <div className="row">
-        <TextContent classNameText = "col-lg-4 ms-auto" theTextContent = {getTextContent(theTextContent.left)}/>
-        <TextContent classNameText = "col-lg-4 me-auto" theTextContent = {getTextContent(theTextContent.right)}/>
+        {textContentData.map(data => (
+          <TextContent key = {data.key} classNameText = {data.classNameText} theTextContent = {data.theTextContent}/>
+        ))}
       </div>
       {/* <!-- About Section Button--> */}
       <div className="text-center mt-4">
