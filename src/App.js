@@ -21,8 +21,7 @@ const App = () => (
       heading = "The Hobbyist"
       links = {[
         {key : getKey(), url : "#portfolio", title : "Hobbies"},
-        {key : getKey(), url : "#about", title : "About"},
-        {key : getKey(), url : "#contact", title : "Contact"}
+        {key : getKey(), url : "#about", title : "About"}
       ]}
     />
     <Masthead
