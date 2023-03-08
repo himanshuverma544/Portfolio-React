@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/The-Hobbyist/static/css/main.af0168b6.css",
-    "main.js": "/The-Hobbyist/static/js/main.080d6c59.js",
+    "main.js": "/The-Hobbyist/static/js/main.27d8a8c5.js",
     "static/media/cabin.png": "/The-Hobbyist/static/media/cabin.4417330275f78faa31c3.png",
     "static/media/circus.png": "/The-Hobbyist/static/media/circus.494a4a914b5471b41f3e.png",
     "static/media/game.png": "/The-Hobbyist/static/media/game.a940b57aa7bab2eacc52.png",
@@ -11,10 +11,10 @@
     "static/media/avataaars.svg": "/The-Hobbyist/static/media/avataaars.0f323cfd395f03a2790f.svg",
     "index.html": "/The-Hobbyist/index.html",
     "main.af0168b6.css.map": "/The-Hobbyist/static/css/main.af0168b6.css.map",
-    "main.080d6c59.js.map": "/The-Hobbyist/static/js/main.080d6c59.js.map"
+    "main.27d8a8c5.js.map": "/The-Hobbyist/static/js/main.27d8a8c5.js.map"
   },
   "entrypoints": [
     "static/css/main.af0168b6.css",
-    "static/js/main.080d6c59.js"
+    "static/js/main.27d8a8c5.js"
   ]
 }
