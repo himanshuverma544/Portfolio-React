@@ -1,35 +1,37 @@
-import React from "react";
+import "./assets/css/bootstrap-styles.css";
+import "./assets/js/bootstrap-scripts.js";
+
 import { v4 as getKey } from "uuid";
 
-import Navigation from "./Navigation";
-import Masthead from "./Masthead";
-import PortfolioSection from "./PortfolioSection";
-import PortfolioModals from "./PortfolioModals";
-import AboutSection from "./AboutSection";
-import ContactSection from "./ContactSection";
-import Footer from "./Footer";
-import CopyrightSection from "./CopyrightSection";
+import Navigation from "./components/Navigation";
+import Masthead from "./components/Masthead";
+import PortfolioSection from "./components/PortfolioSection";
+import PortfolioModals from "./components/PortfolioModals";
+import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
+import Footer from "./components/Footer";
+import CopyrightSection from "./components/CopyrightSection";
 
-import getTextContent from "./TextContent";
+import getTextContent from "./assets/data/TextContent";
 import {getCurrentYear} from "./functions";
 
 
 const App = () => (
   <>
     <Navigation
-      heading = "My Portfolio"
+      heading = "The Hobbyist"
       links = {[
-        {key : getKey(), url : "#portfolio", title : "Portfolio"},
+        {key : getKey(), url : "#portfolio", title : "Hobbies"},
         {key : getKey(), url : "#about", title : "About"},
         {key : getKey(), url : "#contact", title : "Contact"}
       ]}
     />
     <Masthead
       heading = "Himanshu Verma" 
-      subheading = {["Adventurous", "Joyful", "Playful"].join(' - ')}
+      subheading = {["The biggest adventure you can ever take is to live the life of your dreams."].join(' - ')}
     />
     <PortfolioSection
-      heading = "Portfolio"
+      heading = "Hobbies"
       pItemData = {[
         {key : getKey(), theDataBsTargetNumVal : "1", name : "cabin.png", alt : "cabin image"},
         {key : getKey(), theDataBsTargetNumVal : "2", name : "cake.png", alt : "cake image"},
@@ -144,10 +146,10 @@ const App = () => (
       centerContent = {{
         heading : "Around the Web",
         social : [
-          {key : getKey(), link : "#", icon : "facebook-f"},
-          {key : getKey(), link : "#", icon : "twitter"},
-          {key : getKey(), link : "#", icon : "linkedin-in"},
-          {key : getKey(), link : "#", icon : "dribbble"}
+          {key : getKey(), link : "https://www.facebook.com/himanshuverma544", target : "_blank", icon : "facebook-f"},
+          {key : getKey(), link : "https://twitter.com/_Himanshu_Verma", target : "_blank", icon : "twitter"},
+          {key : getKey(), link : "https://www.linkedin.com/in/himanshuverma544", target : "_blank", icon : "linkedin-in"},
+          {key : getKey(), link : "https://github.com/himanshuverma544", target : "_blank", icon : "github"}
         ]  
       }}
       rightContent = {{
@@ -155,7 +157,7 @@ const App = () => (
         theTextContent : getTextContent("footRightConAbout")
       }}
     />
-    <CopyrightSection textContent = {`Copyright © ${getCurrentYear()} by My Portfolio. All Rights Reserved.`}/>
+    <CopyrightSection textContent = {`Copyright © ${getCurrentYear()} by The Hobbyist. All Rights Reserved.`}/>
   </>
 );
 
