@@ -8,7 +8,6 @@ import Masthead from "./components/Masthead";
 import PortfolioSection from "./components/PortfolioSection";
 import PortfolioModals from "./components/PortfolioModals";
 import AboutSection from "./components/AboutSection";
-import ContactSection from "./components/ContactSection";
 import Footer from "./components/Footer";
 import CopyrightSection from "./components/CopyrightSection";
 
